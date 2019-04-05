@@ -9,5 +9,7 @@ def second_challenge
   #code your solution here!
 
   
-groceries.each 
+groceries.each do |type, food|
+  food.values
+  end
 end
