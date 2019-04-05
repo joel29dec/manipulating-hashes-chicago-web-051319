@@ -9,7 +9,5 @@ def second_challenge
   #code your solution here!
 
   
-groceries.each do |type, food|
-  food.values
-  end
+groceries.map{ |item| item.values }.flatten
 end
